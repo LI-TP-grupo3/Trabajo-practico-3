@@ -1,0 +1,59 @@
+/* ===== Variables ===== */
+:root {
+    --color-fondo: #F7F9FA;
+    --color-texto: #1A1A1A;
+    --color-acento: #E8611A;
+    --color-header-footer: #DDE6EA;
+}
+
+/* ===== Reset ===== */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ===== Body ===== */
+body {
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* ===== Header ===== */
+header {
+    background-color: var(--color-header-footer);
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 4px solid var(--color-acento);
+}
+
+/* ===== Navegacion ===== */
+nav a {
+    margin-right: 1.5rem;
+}
+
+/* ===== Contenido principal ===== */
+main {
+    padding: 1rem;
+}
+
+section {
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+/* ===== Footer ===== */
+footer {
+    background-color: var(--color-header-footer);
+    padding: 1rem;
+    margin-top: 2rem;
+    text-align: center;
+    border-top: 4px solid var(--color-acento);
+}
