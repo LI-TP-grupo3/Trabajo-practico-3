@@ -1,4 +1,4 @@
-Trabajo practico de Lenguajes Informaticos grupo 3 - Agencia de turismo Horizonte Sur Viajes
+Trabajo practico de Lenguajes Informaticos grupo 3 - pagina web de Springwest
 
 Integrantes
 
