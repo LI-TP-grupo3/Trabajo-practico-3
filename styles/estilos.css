@@ -1,0 +1,174 @@
+
+:root {
+  /* Paleta de colores */
+  --clr-primary: #0066ff;
+  --clr-bg: #f8f9fa;
+  --clr-text-main: #212529;
+  --clr-heading: #111827;      /* Color para h1 */
+  --clr-subheading: #1f2937;   /* Color para h2 */
+  --clr-caption: #374151;      /* Color para h3 */
+
+  /* Tipografía (Google Fonts como principal, sans-serif como respaldo) */
+  --font-main: 'Inter', system-ui, -apple-system, sans-serif;
+
+  /* Tamaños de fuente */
+  --fs-base: 1rem;       /* 16px base recomendado */
+  --fs-h3: 1.25rem;      /* 20px */
+  --fs-h2: 1.75rem;      /* 28px */
+  --fs-h1: 2.5rem;       /* 40px */
+
+  /* Pesos de fuente */
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-bold: 700;
+
+  /* Altura de línea */
+  --lh-tight: 1.2;
+  --lh-normal: 1.5;
+
+  /* Espaciado */
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+}
+
+/* ==========================================
+   2. RESET MODERNO
+   ========================================== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  color-scheme: light dark;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* ==========================================
+   3. ESTILOS DEL BODY (FUENTAY TAMAÑO BASE)
+   ========================================== */
+body {
+  /* Fuente elegida como principal del sitio */
+  font-family: var(--font-main);
+  /* Tamaño de fuente base (16px) */
+  font-size: var(--fs-base);
+  font-weight: var(--fw-regular);
+  line-height: var(--lh-normal);
+  color: var(--clr-text-main);
+  background-color: var(--clr-bg);
+
+  min-height: 100vh;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+
+  display: flex;
+  flex-direction: column;
+}
+
+/* ==========================================
+   4. ESTILOS DIFERENCIADOS PARA HEADINGS
+   ========================================== */
+h1, h2, h3 {
+  font-family: var(--font-main);
+  line-height: var(--lh-tight);
+}
+
+h1 {
+  font-size: var(--fs-h1);
+  font-weight: var(--fw-bold);
+  color: var(--clr-heading);
+  margin-bottom: var(--space-lg);
+}
+
+h2 {
+  font-size: var(--fs-h2);
+  font-weight: var(--fw-bold);
+  color: var(--clr-subheading);
+  margin-bottom: var(--space-md);
+}
+
+h3 {
+  font-size: var(--fs-h3);
+  font-weight: var(--fw-medium);
+  color: var(--clr-caption);
+  margin-bottom: var(--space-sm);
+}
+
+/* ===== Variables ===== */
+:root {
+    --color-fondo: #F7F9FA;
+    --color-texto: #1A1A1A;
+    --color-acento: #E8611A;
+    --color-header-footer: #DDE6EA;
+}
+
+/* ===== Reset ===== */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ===== Body ===== */
+body {
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* ===== Header ===== */
+header {
+    background-color: var(--color-header-footer);
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 4px solid var(--color-acento);
+}
+
+/* ===== Navegacion ===== */
+nav a {
+    margin-right: 1.5rem;
+}
+
+/* ===== Contenido principal ===== */
+main {
+    padding: 1rem;
+}
+
+section {
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+/* ===== Footer ===== */
+footer {
+    background-color: var(--color-header-footer);
+    padding: 1rem;
+    margin-top: 2rem;
+    text-align: center;
+    border-top: 4px solid var(--color-acento);
+}
