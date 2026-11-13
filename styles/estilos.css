@@ -9,6 +9,55 @@
     --color-acento: #E8611A;
     --color-acento-oscuro: #8A2F0C;
     --color-header-footer: #DDE6EA;
+      position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  /* Propiedades nuevas para tamaño y color: */
+    color: #ffffff;           /* Pone el texto de color blanco */
+    font-size: 3rem;          /* Aanda el tamaño (podés cambiar el valor, ej: 2.5rem o 48px) */
+    font-weight: bold;        /* Opcional: para que sea más grueso y destaque mejor */
+    text-align: center;       /* Opcional: centra el texto si ocupa varias líneas */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Recomendado: le da una sombra para que resalte si la imagen de fondo es clara */
+
+}
+Enviado hace 2 min
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  /* Propiedades nuevas para tamaño y color: */
+    color: #ffffff;           /* Pone el texto de color blanco */
+    font-size: 3rem;          /* Aanda el tamaño (podés cambiar el valor, ej: 2.5rem o 48px) */
+    font-weight: bold;        /* Opcional: para que sea más grueso y destaque mejor */
+    text-align: center;       /* Opcional: centra el texto si ocupa varias líneas */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Recomendado: le da una sombra para que resalte si la imagen de fondo es clara */
+
+.hero-texto {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  /* Propiedades nuevas para tamaño y color: */
+    color: #ffffff;           /* Pone el texto de color blanco */
+    font-size: 3rem;          /* Aanda el tamaño (podés cambiar el valor, ej: 2.5rem o 48px) */
+    font-weight: bold;        /* Opcional: para que sea más grueso y destaque mejor */
+    text-align: center;       /* Opcional: centra el texto si ocupa varias líneas */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Recomendado: le da una sombra para que resalte si la imagen de fondo es clara */
+
+}
+Enviado hace 11 min
+Escribir mensaje
+Escribe en Ezequiel Nuñez y Ezequiel Nuñez
+
+
+
+}
+Enviado hace 2 min
+
 
     --fuente-principal: 'Poppins', system-ui, -apple-system, sans-serif;
 
