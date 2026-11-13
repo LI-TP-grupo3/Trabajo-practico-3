@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/estilos.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portal Turístico</title>
+    <title>Portal Turístico - Springwest</title>
 </head>
 <body>
 
@@ -43,46 +43,64 @@
   </nav>
 </header>
 
+<!-- Todo el contenido principal va dentro de <main> -->
+<main class="container my-4">
 
-        <img src="imagen/SPRINGWEST_img_14690567952539229724.jpg" alt="Foto de Springwest" width="400">
-        <h1>Springwest</h1>
-        <h2>Un destino donde la historia, la cultura y la naturaleza se encuentran. Explora las maravillas que tenemos para ofrecerte.</h2>       
-        <main>
-            <section>
-                <h2>Información Principal</h2>
-                <div>
-                    <article>
+    <!-- Sección Hero con imagen y texto superpuesto -->
+    <div class="hero-container position-relative mb-5">
+        <img src="imagen/SPRINGWEST_img_14690567952539229724.jpg" alt="Imagen Ciudad Springwest" class="img-fluid rounded w-100 object-fit-cover" style="height: 400px;">
+        <div class="hero-texto">
+            <h2>Bienvenidos a la Ciudad</h2>
+        </div>
+    </div>
+
+    <!-- Títulos principales -->
+    <section class="text-center mb-5">
+        <h1 class="display-4 fw-bold">Springwest</h1>
+        <p class="lead text-muted">Un destino donde la historia, la cultura y la naturaleza se encuentran. Explora las maravillas que tenemos para ofrecerte.</p>       
+    </section>
+
+    <!-- Tarjetas de información principal ordenadas en columnas -->
+    <section class="mb-5">
+        <h2 class="mb-4">Información Principal</h2>
+        <div class="row g-4">
+            <div class="col-12 col-md-4">
+                <article class="card h-100 shadow-sm p-3 d-flex flex-column">
                     <h3>Nuestra Historia</h3>
-                    <p>Conoce los orígenes y la rica identidad cultural que define a nuestra comunidad</p>
-                    <a href="ciudad.html">Leer más</a>
-                    </article>
-                </div>
-                <div>
-                    <article>
-                    <h3>
-                        Qué visitar
-                    </h3>
-                    <p>Descubre monumentos,parques y actividades culturales para disfrutar en tu visita.</p>
-                    <a href="lugares.html">Explorar Lugares</a>
-                    </article>
-                </div>
-                <div>
-                    <article>
-                    <h3>
-                    Planifica tu Viaje
-                    </h3>
-                    <p>Ponte en contacto con nuestra Oficina de Turismo para resolver cualquier duda.</p>
-                    <a href="contactos.html">Contactar</a>
-                    </article>
-                </div>  
-            </section>
-        <aside>En los bosques de Springwest se encuentra un árbol de cerezo que fue plantado por el famoso físico Eduardo Neutom</aside>
-        </main>
-    
+                    <p class="flex-grow-1">Conoce los orígenes y la rica identidad cultural que define a nuestra comunidad.</p>
+                    <a href="ciudad.html" class="btn btn-primary mt-auto">Leer más</a>
+                </article>
+            </div>
+            
+            <div class="col-12 col-md-4">
+                <article class="card h-100 shadow-sm p-3 d-flex flex-column">
+                    <h3>Qué visitar</h3>
+                    <p class="flex-grow-1">Descubre monumentos, parques y actividades culturales para disfrutar en tu visita.</p>
+                    <a href="lugares.html" class="btn btn-primary mt-auto">Explorar Lugares</a>
+                </article>
+            </div>
+            
+            <div class="col-12 col-md-4">
+                <article class="card h-100 shadow-sm p-3 d-flex flex-column">
+                    <h3>Planifica tu Viaje</h3>
+                    <p class="flex-grow-1">Ponte en contacto con nuestra Oficina de Turismo para resolver cualquier duda.</p>
+                    <a href="contactos.html" class="btn btn-primary mt-auto">Contactar</a>
+                </article>
+            </div>  
+        </div>
+    </section>
 
-    <footer>
-        <strong>&copy; 2026 Springwest - Oficina de Turismo. Todos los derechos reservados.</strong>
-    </footer>  
+    <!-- Sección Aside -->
+    <aside class="alert alert-info shadow-sm" role="alert">
+        <strong>Dato curioso:</strong> En los bosques de Springwest se encuentra un árbol de cerezo que fue plantado por el famoso físico Eduardo Neutom.
+    </aside>
+
+</main>
+
+<footer>
+    <strong>&copy; 2026 Springwest - Oficina de Turismo. Todos los derechos reservados.</strong>
+</footer>  
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
 </body>
 </html>
