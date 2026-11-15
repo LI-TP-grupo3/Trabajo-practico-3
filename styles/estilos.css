@@ -75,8 +75,8 @@ header {
     z-index: 1000; /* Asegura que quede por encima del resto del contenido */
 }
 
-/* Navegación */
-nav a {
+/* Navegación Booststrap */
+.navbar .nav-link {
     color: var(--color-nav);
     text-decoration: none;
     font-weight: var(--peso-negrita);
@@ -86,7 +86,7 @@ nav a {
     transition: background-color 0.3s, color 0.3s;
 }
 
-nav a:hover {
+.navbar .nav-link:hover {
     background-color: var(--color-primario);
     color: var(--color-texto-claro);
 }
@@ -257,4 +257,27 @@ footer {
   font-weight: bold;
   text-align: center;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* ==========================================
+   Bootstrap - personalizaciones
+   ========================================== */
+
+.navbar {
+    background-color: var(--color-header-footer) !important;
+}
+
+.btn-primary {
+    background-color: var(--color-primario) !important;
+    border-color: var(--color-primario) !important;
+}
+
+.btn-primary:hover {
+    background-color: var(--color-titulo) !important;
+    border-color: var(--color-titulo) !important;
+}
+
+.card {
+    border-color: var(--color-primario);
+    background-color: #ffffff;
 }
