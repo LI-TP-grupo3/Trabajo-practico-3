@@ -281,3 +281,31 @@ footer {
     border-color: var(--color-primario);
     background-color: #ffffff;
 }
+/*========================================
+Modo Oscuro 
+==========================================*/
+body.dark-mode {
+    background-color: #121212;
+    color: #f8f9fa;
+}
+
+/* Ajustar tarjetas y contenedores en modo oscuro */
+body.dark-mode .card {
+    background-color: #1e1e1e;
+    color: #f8f9fa;
+    border-color: #333;
+}
+
+/* Ajustar la barra de navegación en modo oscuro */
+body.dark-mode .navbar {
+    background-color: #212529 !important;
+}
+
+body.dark-mode .navbar-light .navbar-brand,
+body.dark-mode .navbar-light .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+body.dark-mode .navbar-light .navbar-nav .nav-link.active {
+    color: #fff;
+}
