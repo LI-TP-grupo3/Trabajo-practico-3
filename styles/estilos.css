@@ -64,7 +64,7 @@ body {
     padding: 0 1rem;
 }
 
-/* Header (Unificado y con posición sticky) */
+/* Header (Unificado y composición sticky) */
 header {
     background-color: var(--color-header-footer);
     padding: 1rem;
@@ -281,19 +281,21 @@ footer {
     border-color: var(--color-primario);
     background-color: #ffffff;
 }
-/*========================================
+
+
+/*==========================================
 Modo Oscuro 
 ==========================================*/
 body.dark-mode {
     background-color: #121212;
-    color: #f8f9fa;
+    color: #186cc0;
 }
 
 /* Ajustar tarjetas y contenedores en modo oscuro */
 body.dark-mode .card {
     background-color: #1e1e1e;
     color: #f8f9fa;
-    border-color: #333;
+    border-color: #5f5e5e;
 }
 
 /* Ajustar la barra de navegación en modo oscuro */
@@ -309,3 +311,9 @@ body.dark-mode .navbar-light .navbar-nav .nav-link {
 body.dark-mode .navbar-light .navbar-nav .nav-link.active {
     color: #fff;
 }
+
+body.dark-mode h2 {
+  color: #f0f4f8;
+}
+
+
